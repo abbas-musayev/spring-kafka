@@ -1,0 +1,4 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: ${KAFKA_HOST_NAME:localhost}:${KAFKA_PORT:9092}
